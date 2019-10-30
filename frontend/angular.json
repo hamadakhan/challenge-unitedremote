@@ -25,7 +25,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/purpose.core.js",
+              "src/assets/js/purpose.js",
+              "src/assets/js/demo.js"
+            ]
           },
           "configurations": {
             "production": {
