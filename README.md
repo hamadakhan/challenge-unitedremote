@@ -76,4 +76,15 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 
+# Documentation by COMPODOC
 
+Run 
+```bash 
+$ npm i -D @compodoc/compodoc
+```
+
+you can generate your documentation using the below command 
+```bash
+$ npx compodoc -p tsconfig.json -s
+```
+Open your browser and navigate to [http://localhost:8080](http://localhost:8080)  You should see an initial Nest CLI project:
