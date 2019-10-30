@@ -3,12 +3,11 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  {path:'' , component:AppComponent , children:[
-    {path:'auth',loadChildren:'./authentification/authentification.module'},
-    {path:'home',loadChildren:'./home/home.module'},
-   
-  ]},
-  {path:'' ,redirectTo:'auth' , pathMatch:'full'}
+ 
+  {path:'',loadChildren:'./authentification/authentification.module#AuthentificationModule'},
+    {path:'home',loadChildren:'./home/home.module#HomeModule'},
+  {path:'' ,redirectTo:'auth' , pathMatch:'full'},
+  {path:'**' ,redirectTo:'auth' , pathMatch:'full'},
  
 ];
 
