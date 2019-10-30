@@ -1,0 +1,22 @@
+{
+  "name": "challenge-unitedremote",
+  "version": "1.0.0",
+  "description": "code doc ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamadakhan/challenge-unitedremote.git"
+  },
+  "author": "med@elfallahi.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamadakhan/challenge-unitedremote/issues"
+  },
+  "homepage": "https://github.com/hamadakhan/challenge-unitedremote#readme",
+  "devDependencies": {
+    "@compodoc/compodoc": "^1.1.11"
+  }
+}
